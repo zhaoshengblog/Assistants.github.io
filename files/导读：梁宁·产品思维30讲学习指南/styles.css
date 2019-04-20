@@ -4753,6 +4753,8 @@
   font-family:'微软雅黑 Bold', '微软雅黑 Regular', '微软雅黑';
   font-weight:700;
   font-style:normal;
+  font-size:18px;
+  text-align:left;
   line-height:28px;
 }
 #u6531 {
@@ -4766,11 +4768,13 @@
   font-family:'微软雅黑 Bold', '微软雅黑 Regular', '微软雅黑';
   font-weight:700;
   font-style:normal;
+  font-size:18px;
+  text-align:left;
   line-height:28px;
 }
 #u6531 .text {
   position:absolute;
-  align-self:center;
+  align-self:flex-start;
   padding:20px 20px 20px 20px;
   box-sizing:border-box;
   width:100%;
@@ -4794,6 +4798,7 @@
   -moz-box-shadow:none;
   -webkit-box-shadow:none;
   box-shadow:none;
+  text-align:left;
   line-height:28px;
 }
 #u6532 {
@@ -4804,6 +4809,7 @@
   width:850px;
   height:208px;
   display:flex;
+  text-align:left;
   line-height:28px;
 }
 #u6532 .text {
@@ -4836,6 +4842,7 @@
   font-weight:400;
   font-style:normal;
   font-size:16px;
+  text-align:left;
   line-height:28px;
 }
 #u6533 {
@@ -4850,6 +4857,7 @@
   font-weight:400;
   font-style:normal;
   font-size:16px;
+  text-align:left;
   line-height:28px;
 }
 #u6533 .text {
@@ -4883,6 +4891,7 @@
   font-style:normal;
   font-size:16px;
   color:#7F7F7F;
+  text-align:left;
   line-height:28px;
 }
 #u6534 {
@@ -4898,6 +4907,7 @@
   font-style:normal;
   font-size:16px;
   color:#7F7F7F;
+  text-align:left;
   line-height:28px;
 }
 #u6534 .text {
@@ -4930,6 +4940,7 @@
   font-weight:400;
   font-style:normal;
   font-size:16px;
+  text-align:left;
   line-height:28px;
 }
 #u6535 {
@@ -4944,6 +4955,7 @@
   font-weight:400;
   font-style:normal;
   font-size:16px;
+  text-align:left;
   line-height:28px;
 }
 #u6535 .text {
@@ -7187,6 +7199,7 @@
   font-weight:400;
   font-style:normal;
   font-size:16px;
+  text-align:left;
   line-height:28px;
 }
 #u6585 {
@@ -7201,6 +7214,7 @@
   font-weight:400;
   font-style:normal;
   font-size:16px;
+  text-align:left;
   line-height:28px;
 }
 #u6585 .text {
@@ -7892,6 +7906,7 @@
   font-style:normal;
   font-size:16px;
   color:#7F7F7F;
+  text-align:left;
   line-height:28px;
 }
 #u6603 {
@@ -7907,6 +7922,7 @@
   font-style:normal;
   font-size:16px;
   color:#7F7F7F;
+  text-align:left;
   line-height:28px;
 }
 #u6603 .text {
