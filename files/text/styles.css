@@ -1137,7 +1137,7 @@
   -moz-box-shadow:none;
   -webkit-box-shadow:none;
   box-shadow:none;
-  font-family:'Microsoft YaHei UI';
+  font-family:'Microsoft YaHei UI Regular', 'Microsoft YaHei UI';
   font-weight:400;
   font-style:normal;
   font-size:14px;
@@ -1151,7 +1151,7 @@
   width:32px;
   height:22px;
   display:flex;
-  font-family:'Microsoft YaHei UI';
+  font-family:'Microsoft YaHei UI Regular', 'Microsoft YaHei UI';
   font-weight:400;
   font-style:normal;
   font-size:14px;
@@ -1178,7 +1178,7 @@
   -moz-box-shadow:none;
   -webkit-box-shadow:none;
   box-shadow:none;
-  font-family:'Microsoft YaHei UI';
+  font-family:'Microsoft YaHei UI Regular', 'Microsoft YaHei UI';
   font-weight:400;
   font-style:normal;
   font-size:14px;
@@ -1234,6 +1234,29 @@
   box-sizing:border-box;
   width:100%;
 }
+#u2861_div.mouseOver {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:28px;
+  height:21px;
+  background:inherit;
+  background-color:rgba(255, 255, 255, 0);
+  border:none;
+  border-radius:0px;
+  -moz-box-shadow:none;
+  -webkit-box-shadow:none;
+  box-shadow:none;
+  font-family:'Microsoft YaHei Regular', 'Microsoft YaHei';
+  font-weight:400;
+  font-style:normal;
+  font-size:14px;
+  color:rgba(0, 0, 0, 0.447058823529412);
+  line-height:21px;
+}
+#u2861.mouseOver {
+}
 #u2861_text {
   border-width:0px;
   white-space:nowrap;
@@ -1281,6 +1304,29 @@
   padding:0px 0px 0px 0px;
   box-sizing:border-box;
   width:100%;
+}
+#u2862_div.mouseOver {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:28px;
+  height:21px;
+  background:inherit;
+  background-color:rgba(255, 255, 255, 0);
+  border:none;
+  border-radius:0px;
+  -moz-box-shadow:none;
+  -webkit-box-shadow:none;
+  box-shadow:none;
+  font-family:'微软雅黑';
+  font-weight:400;
+  font-style:normal;
+  font-size:14px;
+  color:rgba(0, 0, 0, 0.447058823529412);
+  line-height:21px;
+}
+#u2862.mouseOver {
 }
 #u2862_text {
   border-width:0px;
