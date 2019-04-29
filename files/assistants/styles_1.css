@@ -1,4 +1,31 @@
 ﻿
+.u965 .text {
+  position:absolute;
+  align-self:center;
+  padding:0px 0px 0px 0px;
+  box-sizing:border-box;
+  width:100%;
+}
+.u965_div.mouseOver {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:180px;
+  height:40px;
+  background:inherit;
+  background-color:rgba(107, 173, 255, 0.298039215686275);
+  border:none;
+  border-radius:0px;
+  -moz-box-shadow:none;
+  -webkit-box-shadow:none;
+  box-shadow:none;
+  font-family:'微软雅黑';
+  font-weight:400;
+  font-style:normal;
+  color:rgba(170, 170, 170, 0.996078431372549);
+  text-align:center;
+}
 .u965.mouseOver {
 }
 .u965_text {
@@ -1480,6 +1507,30 @@
   border-width:0px;
   position:absolute;
   left:370px;
+  top:90px;
+  width:180px;
+  height:40px;
+}
+#u988-16 {
+  border-width:0px;
+  position:absolute;
+  left:555px;
+  top:90px;
+  width:180px;
+  height:40px;
+}
+#u988-17 {
+  border-width:0px;
+  position:absolute;
+  left:740px;
+  top:90px;
+  width:180px;
+  height:40px;
+}
+#u988-18 {
+  border-width:0px;
+  position:absolute;
+  left:925px;
   top:90px;
   width:180px;
   height:40px;
