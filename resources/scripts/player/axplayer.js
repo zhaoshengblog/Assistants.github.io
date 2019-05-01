@@ -109,7 +109,7 @@ var iphoneXFirstPass = true;
             (SAFARI && BROWSER_VERSION < 602) || // Minor version 10
             (FIREFOX && BROWSER_VERSION < 57) || // Support Quantum 
             ($axure.browser.isEdge && BROWSER_VERSION < 15) || // 15 for mobile devices (else could go 16, possibly 17)
-            IE_10_AND_BELOW) {
+            (!$axure.browser.isEdge && IE)) {
             if (!QQ && !UC) appendOutOfDateNotification();
         }
 
@@ -135,9 +135,6 @@ var iphoneXFirstPass = true;
         toAppend += '       </div>';
         toAppend += '       <div class="browserContainer">';
         toAppend += '           <div class="browserName">Apple Safari</div><div class="browserSupportedVersion">v10 and later</div>';
-        toAppend += '       </div>';
-        toAppend += '       <div class="browserContainer">';
-        toAppend += '           <div class="browserName">Internet Explorer</div><div class="browserSupportedVersion">v11 and later</div>';
         toAppend += '       </div>';
         toAppend += '   </div>';
         toAppend += '   <div id="browserOutOfDateNotificationButtons">'
@@ -921,7 +918,7 @@ var iphoneXFirstPass = true;
         if (MOBILE_DEVICE && w > mainPanelWidth) w = mainPanelWidth;
 
         if (clipToView) {
-            if (scaleVal == '0') scaleVal = 2;
+            if (!MOBILE_DEVICE && scaleVal == '0') scaleVal = 2;
 
             w = Number(w);
             h = Number(h);
@@ -931,15 +928,13 @@ var iphoneXFirstPass = true;
             $('#mainFrame').height(h);
             $('#clipFrameScroll').height(h);
 
-            var topPadding = 10;
+            var topPadding = MOBILE_DEVICE ? 0 : 10;
             var leftPadding = 0;
             var rightPadding = 0;
-            var bottomPadding = 10;
+            var bottomPadding = MOBILE_DEVICE ? 0 : 10;
 
-            if (!MOBILE_DEVICE) {
-                w = w + leftPadding + rightPadding;
-                h = h + topPadding + bottomPadding;
-            }
+            w = w + leftPadding + rightPadding;
+            h = h + topPadding + bottomPadding;
 
             var x = (mainPanelWidth - w) / 2;
             var y = (mainPanelHeight - h) / 2 - 1;
@@ -1883,7 +1878,7 @@ var iphoneXFirstPass = true;
         } else if (message == 'setContentScale') {
             if (data.clipToView) {
                 var scaleVal = $('.vpScaleOption').find('.selectedRadioButton').parent().attr('val');
-                if (scaleVal == '2' || scaleVal == '0') {
+                if (scaleVal == '2' || (!MOBILE_DEVICE && scaleVal == '0')) {
                     var scaleN = newScaleN = $('#mainPanel').width() / data.viewportWidth;
                     var hScaleN = ($('#mainPanel').height()) / data.viewportHeight;
                     if (hScaleN < scaleN) scaleN = newScaleN = hScaleN;
