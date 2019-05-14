@@ -1,5 +1,5 @@
 ﻿.ax_default {
-  font-family:'Arial Normal', 'Arial';
+  font-family:'微软雅黑';
   font-weight:400;
   font-style:normal;
   font-size:13px;
@@ -22,44 +22,45 @@
 .placeholder {
 }
 .primary_button {
+  font-size:14px;
   color:#FFFFFF;
 }
 .heading_1 {
-  font-family:'Arial Negreta', 'Arial Normal', 'Arial';
+  font-family:'微软雅黑 Bold', '微软雅黑 Regular', '微软雅黑';
   font-weight:700;
   font-style:normal;
   font-size:32px;
   text-align:left;
 }
 .heading_2 {
-  font-family:'Arial Negreta', 'Arial Normal', 'Arial';
+  font-family:'微软雅黑 Bold', '微软雅黑 Regular', '微软雅黑';
   font-weight:700;
   font-style:normal;
   font-size:24px;
   text-align:left;
 }
 .heading_3 {
-  font-family:'Arial Negreta', 'Arial Normal', 'Arial';
+  font-family:'微软雅黑 Bold', '微软雅黑 Regular', '微软雅黑';
   font-weight:700;
   font-style:normal;
   font-size:18px;
   text-align:left;
 }
 .heading_4 {
-  font-family:'Arial Negreta', 'Arial Normal', 'Arial';
+  font-family:'微软雅黑 Bold', '微软雅黑 Regular', '微软雅黑';
   font-weight:700;
   font-style:normal;
   font-size:14px;
   text-align:left;
 }
 .heading_5 {
-  font-family:'Arial Negreta', 'Arial Normal', 'Arial';
+  font-family:'微软雅黑 Bold', '微软雅黑 Regular', '微软雅黑';
   font-weight:700;
   font-style:normal;
   text-align:left;
 }
 .heading_6 {
-  font-family:'Arial Negreta', 'Arial Normal', 'Arial';
+  font-family:'微软雅黑 Bold', '微软雅黑 Regular', '微软雅黑';
   font-weight:700;
   font-style:normal;
   font-size:10px;
@@ -77,6 +78,9 @@
 }
 .text_link_mouse_down {
 }
+.html_button {
+  text-align:center;
+}
 .form_hint {
   color:#999999;
 }
@@ -91,10 +95,18 @@
   text-align:left;
 }
 ._二级标题 {
-  font-family:'Arial Normal', 'Arial';
+  font-family:'微软雅黑';
   font-weight:bold;
   font-style:normal;
   font-size:24px;
+  text-align:left;
+}
+.text_field {
+  font-family:'微软雅黑';
+  font-weight:400;
+  font-style:normal;
+  font-size:34px;
+  color:#000000;
   text-align:left;
 }
 .box_1 {
@@ -116,6 +128,8 @@
 }
 .line {
 }
+.arrow {
+}
 .marker {
   color:#FFFFFF;
 }
@@ -127,7 +141,7 @@
 }
 .fontawesome {
 }
-.text_field {
+.text_field1 {
   color:#000000;
   text-align:left;
 }
@@ -153,7 +167,7 @@
   color:#000000;
 }
 .font_awesome_5_free_solid {
-  font-family:'Font Awesome 5 Free Solid', 'Font Awesome 5 Free Regular', 'Font Awesome 5 Free';
+  font-family:'Font Awesome 5 Free Solid', 'Font Awesome 5 Free';
   font-weight:900;
   font-style:normal;
 }
@@ -180,6 +194,11 @@
 ._形状2 {
 }
 ._图片 {
+}
+.refs-web-ios {
+  font-family:'PingFang SC 中等', 'PingFang SC';
+  font-weight:400;
+  font-style:normal;
 }
 .refs-webm-ios {
   font-family:'PingFang SC 中等', 'PingFang SC';
@@ -219,6 +238,7 @@
   text-align:left;
 }
 .button {
+  font-size:14px;
 }
 .radio_button {
   text-align:left;
@@ -320,7 +340,7 @@
   line-height:normal;
 }
 .heading_11 {
-  font-family:'Arial Normal', 'Arial';
+  font-family:'微软雅黑';
   font-weight:bold;
   font-style:normal;
   font-size:32px;
@@ -409,13 +429,13 @@
   text-align:left;
 }
 ._形状7 {
-  font-family:'Arial Negreta', 'Arial Normal', 'Arial';
+  font-family:'微软雅黑 Bold', '微软雅黑 Regular', '微软雅黑';
   font-weight:700;
   font-style:normal;
   color:#C2C2C2;
 }
 ._形状8 {
-  font-family:'Arial Negreta', 'Arial Normal', 'Arial';
+  font-family:'微软雅黑 Bold', '微软雅黑 Regular', '微软雅黑';
   font-weight:700;
   font-style:normal;
   color:#FF0066;
@@ -427,12 +447,12 @@
   font-size:15px;
 }
 ._连接线 {
-  font-family:'微软雅黑';
+  font-family:'微软雅黑 Regular', '微软雅黑';
   font-weight:400;
   font-style:normal;
 }
 ._形状9 {
-  font-family:'Arial Normal', 'Arial';
+  font-family:'微软雅黑';
   font-weight:normal;
   font-style:normal;
 }
@@ -442,7 +462,7 @@
 ._提交按钮 {
   color:#000000;
 }
-.html_button {
+.html_button1 {
   text-align:center;
 }
 .box_4 {
@@ -496,20 +516,20 @@
 ._图片2 {
 }
 ._四级标题 {
-  font-family:'Arial Normal', 'Arial';
+  font-family:'微软雅黑';
   font-weight:bold;
   font-style:normal;
   font-size:14px;
   text-align:left;
 }
 ._五级标题 {
-  font-family:'Arial Normal', 'Arial';
+  font-family:'微软雅黑';
   font-weight:bold;
   font-style:normal;
   text-align:left;
 }
 ._六级标题 {
-  font-family:'Arial Normal', 'Arial';
+  font-family:'微软雅黑';
   font-weight:bold;
   font-style:normal;
   font-size:10px;
@@ -526,7 +546,7 @@
 }
 .ellipse2 {
 }
-.text_field1 {
+.text_field2 {
   color:#000000;
   text-align:left;
 }
@@ -540,7 +560,7 @@
 }
 ._鼠标按下文本链接时 {
 }
-.text_field2 {
+.text_field3 {
   color:#000000;
   text-align:left;
 }
@@ -582,5 +602,115 @@
 .box_23 {
 }
 .table_cell1 {
+}
+.heading_21 {
+  font-family:'微软雅黑';
+  font-weight:bold;
+  font-style:normal;
+  font-size:24px;
+  text-align:left;
+}
+.text_link {
+  color:#0000FF;
+}
+.example_shadow {
+}
+.transparent {
+}
+.example_button {
+  font-family:'Roboto Bold', 'Roboto';
+  font-weight:700;
+  font-style:normal;
+  font-size:16px;
+  color:#FFFFFF;
+}
+.example_text {
+  font-family:'Roboto Medium', 'Roboto';
+  font-weight:300;
+  font-style:normal;
+  font-size:13px;
+  text-align:left;
+  line-height:15px;
+}
+.example_script {
+  font-family:'Courier New Normal', 'Courier New';
+  font-weight:400;
+  font-style:normal;
+  font-size:11px;
+}
+._形状12 {
+}
+._图片5 {
+  color:#000000;
+}
+.heading_12 {
+  font-family:'微软雅黑 Bold', '微软雅黑 Regular', '微软雅黑';
+  font-weight:700;
+  font-style:normal;
+  font-size:32px;
+  text-align:left;
+}
+.paragraph2 {
+  text-align:left;
+}
+._默认样式2 {
+}
+.icon2 {
+}
+.label5 {
+  font-size:14px;
+  color:#000000;
+  text-align:left;
+}
+._下拉列表框 {
+  color:#000000;
+  text-align:left;
+}
+._多行文本框 {
+  color:#000000;
+  text-align:left;
+}
+._文本段落4 {
+  text-align:left;
+}
+.label6 {
+  font-size:14px;
+  text-align:left;
+}
+.icon3 {
+}
+.paragraph3 {
+  text-align:left;
+}
+.paragraph4 {
+  text-align:left;
+}
+._形状13 {
+}
+._水平线1 {
+}
+._垂直线1 {
+}
+._一级标题 {
+  font-family:'微软雅黑';
+  font-weight:bold;
+  font-style:normal;
+  font-size:32px;
+  text-align:left;
+}
+.refs-webm-wechat1 {
+  font-family:'PingFang SC 中等', 'PingFang SC';
+  font-weight:400;
+  font-style:normal;
+}
+.basicbutton {
+  font-family:'Roboto Medium', 'Roboto';
+  font-weight:500;
+  font-style:normal;
+  font-size:16px;
+  color:#FFFFFF;
+  text-align:center;
+}
+.ellipse5 {
 }
 textarea, select, input, button { outline: none; }
