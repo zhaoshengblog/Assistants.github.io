@@ -1,6 +1,18 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<svg version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="10px" height="5px" xmlns="http://www.w3.org/2000/svg">
-  <g transform="matrix(1 0 0 1 -726 -17218 )">
-    <path d="M 8.02999999999997 0.75  L 0.430000000000064 3.25  " stroke-width="1" stroke="#5a5a5a" fill="none" transform="matrix(1 0 0 1 726 17218 )" />
+<svg version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="33px" height="32px" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter x="653px" y="17224px" width="33px" height="32px" filterUnits="userSpaceOnUse" id="filter1098">
+      <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetInner" />
+      <feGaussianBlur stdDeviation="2" in="shadowOffsetInner" result="shadowGaussian" />
+      <feComposite in2="shadowGaussian" operator="atop" in="SourceAlpha" result="shadowComposite" />
+      <feColorMatrix type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 0.4 0  " in="shadowComposite" />
+    </filter>
+    <g id="widget1099">
+      <path d="M 12.64 23.79  C 6.13999999999999 23.79  0.840000000000032 18.49  0.840000000000032 11.89  C 0.840000000000032 5.38999999999999  6.13999999999999 0.089999999999975  12.64 0.089999999999975  C 19.24 0.089999999999975  24.4400000000001 5.38999999999999  24.4400000000001 11.89  C 24.4400000000001 18.49  19.24 23.79  12.64 23.79  Z " fill-rule="nonzero" fill="#ffffff" stroke="none" fill-opacity="0" transform="matrix(1 0 0 1 657 17228 )" />
+    </g>
+  </defs>
+  <g transform="matrix(1 0 0 1 -653 -17224 )">
+    <use xlink:href="#widget1099" filter="url(#filter1098)" />
+    <use xlink:href="#widget1099" />
   </g>
 </svg>
