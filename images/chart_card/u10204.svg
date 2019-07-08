@@ -1,22 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<svg version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="144px" height="75px" xmlns="http://www.w3.org/2000/svg">
-  <defs>
-    <mask fill="white" id="clip75">
-      <path d="M 0 63.4107142857144  L 0 3.58928571428555  C 0 1.57928571428579  2.63999999999987 0  6 0  L 130 0  C 133.36 0  136 1.57928571428579  136 3.58928571428555  L 136 63.4107142857144  C 136 65.4207142857144  133.36 67  130 67  L 6 67  C 2.63999999999987 67  0 65.4207142857144  0 63.4107142857144  Z " fill-rule="evenodd" />
-    </mask>
-    <filter x="1070px" y="8043px" width="144px" height="75px" filterUnits="userSpaceOnUse" id="filter76">
-      <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetInner" />
-      <feGaussianBlur stdDeviation="2" in="shadowOffsetInner" result="shadowGaussian" />
-      <feComposite in2="shadowGaussian" operator="atop" in="SourceAlpha" result="shadowComposite" />
-      <feColorMatrix type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 0.149019607843137 0  " in="shadowComposite" />
-    </filter>
-    <g id="widget77">
-      <path d="M 0 63.4107142857144  L 0 3.58928571428555  C 0 1.57928571428579  2.63999999999987 0  6 0  L 130 0  C 133.36 0  136 1.57928571428579  136 3.58928571428555  L 136 63.4107142857144  C 136 65.4207142857144  133.36 67  130 67  L 6 67  C 2.63999999999987 67  0 65.4207142857144  0 63.4107142857144  Z " fill-rule="nonzero" fill="#ffffff" stroke="none" transform="matrix(1 0 0 1 1074 8047 )" />
-      <path d="M 0 63.4107142857144  L 0 3.58928571428555  C 0 1.57928571428579  2.63999999999987 0  6 0  L 130 0  C 133.36 0  136 1.57928571428579  136 3.58928571428555  L 136 63.4107142857144  C 136 65.4207142857144  133.36 67  130 67  L 6 67  C 2.63999999999987 67  0 65.4207142857144  0 63.4107142857144  Z " stroke-width="2" stroke="#ebebeb" fill="none" transform="matrix(1 0 0 1 1074 8047 )" mask="url(#clip75)" />
-    </g>
-  </defs>
-  <g transform="matrix(1 0 0 1 -1070 -8043 )">
-    <use xlink:href="#widget77" filter="url(#filter76)" />
-    <use xlink:href="#widget77" />
+<svg version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="170px" height="170px" xmlns="http://www.w3.org/2000/svg">
+  <g transform="matrix(1 0 0 1 -955 -5739 )">
+    <path d="M 955.330118133028 5816.51594330373  L 1040 5824  L 1005.39914453754 5901.63878413052  C 974.745842215536 5887.97769328567  955 5857.55965354879  955 5824  C 955 5821.50167527626  955.110146322697 5819.00456517696  955.330118133028 5816.51594330373  Z " fill-rule="nonzero" fill="#7dc856" stroke="none" />
   </g>
 </svg>
