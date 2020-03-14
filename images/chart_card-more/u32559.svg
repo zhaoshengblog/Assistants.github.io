@@ -1,18 +1,1 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<svg version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="33px" height="32px" xmlns="http://www.w3.org/2000/svg">
-  <defs>
-    <filter x="196px" y="17224px" width="33px" height="32px" filterUnits="userSpaceOnUse" id="filter2589">
-      <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetInner" />
-      <feGaussianBlur stdDeviation="2" in="shadowOffsetInner" result="shadowGaussian" />
-      <feComposite in2="shadowGaussian" operator="atop" in="SourceAlpha" result="shadowComposite" />
-      <feColorMatrix type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 0.4 0  " in="shadowComposite" />
-    </filter>
-    <g id="widget2590">
-      <path d="M 12.78 23.79  C 6.27999999999999 23.79  0.97999999999999 18.49  0.97999999999999 11.89  C 0.97999999999999 5.38999999999999  6.27999999999999 0.089999999999975  12.78 0.089999999999975  C 19.38 0.089999999999975  24.58 5.38999999999999  24.58 11.89  C 24.58 18.49  19.38 23.79  12.78 23.79  Z " fill-rule="nonzero" fill="#ffffff" stroke="none" fill-opacity="0" transform="matrix(1 0 0 1 200 17228 )" />
-    </g>
-  </defs>
-  <g transform="matrix(1 0 0 1 -196 -17224 )">
-    <use xlink:href="#widget2590" filter="url(#filter2589)" />
-    <use xlink:href="#widget2590" />
-  </g>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="33" height="32" version="1.1"><defs><filter id="filter2589" width="33" height="32" x="196" y="17224" filterUnits="userSpaceOnUse"><feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetInner"/><feGaussianBlur in="shadowOffsetInner" result="shadowGaussian" stdDeviation="2"/><feComposite in="SourceAlpha" in2="shadowGaussian" operator="atop" result="shadowComposite"/><feColorMatrix in="shadowComposite" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.4 0"/></filter><g id="widget2590"><path fill="#fff" fill-opacity="0" fill-rule="nonzero" stroke="none" d="M 12.78 23.79 C 6.27999999999999 23.79 0.97999999999999 18.49 0.97999999999999 11.89 C 0.97999999999999 5.38999999999999 6.27999999999999 0.089999999999975 12.78 0.089999999999975 C 19.38 0.089999999999975 24.58 5.38999999999999 24.58 11.89 C 24.58 18.49 19.38 23.79 12.78 23.79 Z" transform="matrix(1 0 0 1 200 17228 )"/></g></defs><g transform="matrix(1 0 0 1 -196 -17224 )"><use filter="url(#filter2589)" xlink:href="#widget2590"/><use xlink:href="#widget2590"/></g></svg>
