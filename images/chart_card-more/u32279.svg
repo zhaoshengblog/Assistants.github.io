@@ -1,18 +1,1 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<svg version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="40px" height="40px" xmlns="http://www.w3.org/2000/svg">
-  <defs>
-    <filter x="630px" y="16418px" width="40px" height="40px" filterUnits="userSpaceOnUse" id="filter2437">
-      <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetInner" />
-      <feGaussianBlur stdDeviation="2" in="shadowOffsetInner" result="shadowGaussian" />
-      <feComposite in2="shadowGaussian" operator="atop" in="SourceAlpha" result="shadowComposite" />
-      <feColorMatrix type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 0.4 0  " in="shadowComposite" />
-    </filter>
-    <g id="widget2438">
-      <path d="M 16.21 31.78  C 7.61000000000001 31.78  0.610000000000014 24.78  0.610000000000014 16.08  C 0.610000000000014 7.48000000000002  7.61000000000001 0.480000000000018  16.21 0.480000000000018  C 24.91 0.480000000000018  31.91 7.48000000000002  31.91 16.08  C 31.91 24.78  24.91 31.78  16.21 31.78  Z " fill-rule="nonzero" fill="#ffffff" stroke="none" fill-opacity="0" transform="matrix(1 0 0 1 634 16422 )" />
-    </g>
-  </defs>
-  <g transform="matrix(1 0 0 1 -630 -16418 )">
-    <use xlink:href="#widget2438" filter="url(#filter2437)" />
-    <use xlink:href="#widget2438" />
-  </g>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="40" height="40" version="1.1"><defs><filter id="filter2437" width="40" height="40" x="630" y="16418" filterUnits="userSpaceOnUse"><feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetInner"/><feGaussianBlur in="shadowOffsetInner" result="shadowGaussian" stdDeviation="2"/><feComposite in="SourceAlpha" in2="shadowGaussian" operator="atop" result="shadowComposite"/><feColorMatrix in="shadowComposite" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.4 0"/></filter><g id="widget2438"><path fill="#fff" fill-opacity="0" fill-rule="nonzero" stroke="none" d="M 16.21 31.78 C 7.61000000000001 31.78 0.610000000000014 24.78 0.610000000000014 16.08 C 0.610000000000014 7.48000000000002 7.61000000000001 0.480000000000018 16.21 0.480000000000018 C 24.91 0.480000000000018 31.91 7.48000000000002 31.91 16.08 C 31.91 24.78 24.91 31.78 16.21 31.78 Z" transform="matrix(1 0 0 1 634 16422 )"/></g></defs><g transform="matrix(1 0 0 1 -630 -16418 )"><use filter="url(#filter2437)" xlink:href="#widget2438"/><use xlink:href="#widget2438"/></g></svg>
